@@ -1,6 +1,7 @@
 TypeScript Hero
 JavaScript and TypeScript Nightly
 JS CodeFormer: Javascript Refactoring
+Abracadabra
 Beautify
 Github Copilot
 Increment Selection

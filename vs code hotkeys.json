@@ -46,6 +46,26 @@
         "command": "editor.action.goToTypeDefinition"
     },
     {
+        "key": "ctrl+r ctrl+v",
+        "command": "abracadabra.extract",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+v",
+        "command": "-abracadabra.extract",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+r ctrl+i",
+        "command": "abracadabra.inline",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-abracadabra.inline",
+        "when": "editorTextFocus"
+    },
+    {
         "key": "ctrl+r ctrl+m",
         "command": "cmstead.jscodeformer.extractMethod",
         "when": "editorHasSelection"
@@ -56,21 +76,23 @@
         "when": "editorHasSelection"
     },
     {
-        "key": "ctrl+r ctrl+v",
-        "command": "cmstead.jscodeformer.extractVariable",
-        "when": "editorHasSelection"
+        "key": "ctrl+alt+down",
+        "command": "abracadabra.moveStatementDown",
+        "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+shift+j v",
-        "command": "-cmstead.jscodeformer.extractVariable",
-        "when": "editorHasSelection"
+        "key": "shift+alt+d",
+        "command": "-abracadabra.moveStatementDown",
+        "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+r ctrl+i",
-        "command": "cmstead.jscodeformer.inlineVariable"
+        "key": "ctrl+alt+up",
+        "command": "abracadabra.moveStatementUp",
+        "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+shift+j i",
-        "command": "-cmstead.jscodeformer.inlineVariable"
+        "key": "shift+alt+u",
+        "command": "-abracadabra.moveStatementUp",
+        "when": "editorTextFocus"
     }
 ]

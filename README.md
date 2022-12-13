@@ -1,2 +1,2 @@
-# environment-settings
+# my development environment settings
 A place to put the developmental environment settings
