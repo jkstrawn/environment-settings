@@ -1,0 +1,76 @@
+[
+    {
+        "key": "ctrl+k ctrl+d",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl-shift-t",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+r ctrl-r",
+        "command": "editor.action.rename",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift-x",
+        "command": "workbench.action.tasks.runTask",
+        "args": "tsc"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+enter",
+        "command": "editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "f12",
+        "command": "editor.action.goToTypeDefinition"
+    },
+    {
+        "key": "ctrl+r ctrl+m",
+        "command": "cmstead.jscodeformer.extractMethod",
+        "when": "editorHasSelection"
+    },
+    {
+        "key": "ctrl+shift+j m",
+        "command": "-cmstead.jscodeformer.extractMethod",
+        "when": "editorHasSelection"
+    },
+    {
+        "key": "ctrl+r ctrl+v",
+        "command": "cmstead.jscodeformer.extractVariable",
+        "when": "editorHasSelection"
+    },
+    {
+        "key": "ctrl+shift+j v",
+        "command": "-cmstead.jscodeformer.extractVariable",
+        "when": "editorHasSelection"
+    },
+    {
+        "key": "ctrl+r ctrl+i",
+        "command": "cmstead.jscodeformer.inlineVariable"
+    },
+    {
+        "key": "ctrl+shift+j i",
+        "command": "-cmstead.jscodeformer.inlineVariable"
+    }
+]

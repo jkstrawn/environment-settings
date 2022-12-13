@@ -1,0 +1,8 @@
+TypeScript Hero
+JavaScript and TypeScript Nightly
+JS CodeFormer: Javascript Refactoring
+Beautify
+Github Copilot
+Increment Selection
+CSS Formatter?
+C#
