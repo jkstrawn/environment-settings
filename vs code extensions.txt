@@ -7,3 +7,4 @@ Github Copilot
 Increment Selection
 CSS Formatter?
 C#
+Pretty TypeScript Errors
