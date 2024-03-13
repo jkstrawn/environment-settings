@@ -1,17 +1,17 @@
-# qmk-layout
+# The default Preonic layout - largely based on the Planck's
 
-Open QMK MSYS
+Compile:
 
 `qmk compile -kb preonic/rev3_drop -km frogland1`
-
-Open QMK Toolbox
-
-Reset keyboard - LOWER+UPPER+Q
-
-Press "Flash" button!
+ 
 
 
+"C:\Users\jkstr\qmk_firmware\preonic_rev3_drop_frogland1.bin"
+
+Once you have located your firmware file, drag it into the “Local file” box in QMK Toolbox, or click “Open” and navigate to where your firmware file is stored.
 
 
-Frogland keymap location:
-C:\Users\jkstr\qmk_firmware\keyboards\preonic\keymaps\frogland1\keymap.c
+press "Reset" button = Raise-Lower-'
+
+
+Press the "Flash" button
